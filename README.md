@@ -1,0 +1,2 @@
+# Hackintosh-MECHREVO-Code01-EFI
+MECHREVO Code01 4800h
