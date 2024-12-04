@@ -7,4 +7,5 @@ Install MACOS use config.plist
 
 After setup,use config-after-post.plist to enable NootedRed.kext
 
-[Here is the Link to download NootedRed](https://chefkissinc.github.io/applehax/nootedred/)
+Tips:!!!!!!!!!!!!!!!!!!!!
+You should download the NootedRed.kext to Kexts directory[Here is the Link to download NootedRed](https://chefkissinc.github.io/applehax/nootedred/)
