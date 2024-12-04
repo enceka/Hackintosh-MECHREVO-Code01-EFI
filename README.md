@@ -1,5 +1,7 @@
 # Hackintosh-MECHREVO-Code01-EFI
-MECHREVO Code01 4800h
+MECHREVO Code01 4800h tested on ventura
+
+Bios setting: Disable SecureBoot
 
 Install MACOS use config.plist
 
