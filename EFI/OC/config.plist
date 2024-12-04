@@ -2,8 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
     <dict>
-		<key>#RapidEFI-v3.3.0</key>
-		<string>An excellent one-click EFI configuration tool based on OpenCore</string>
+        <key>#RapidEFI-v3.3.0</key>
+        <string>An excellent one-click EFI configuration tool based on OpenCore</string>
         <key>ACPI</key>
         <dict>
             <key>Add</key>
@@ -321,8 +321,6 @@
                 <key>EnableSafeModeSlide</key>
                 <true/>
                 <key>EnableWriteUnprotector</key>
-                <false/>
-                <key>FixupAppleEfiImages</key>
                 <false/>
                 <key>ForceBooterSignature</key>
                 <false/>
@@ -1923,8 +1921,6 @@
                 <false/>
                 <key>DisableIoMapper</key>
                 <false/>
-                <key>DisableIoMapperMapping</key>
-                <false/>
                 <key>DisableLinkeditJettison</key>
                 <true/>
                 <key>DisableRtcChecksum</key>
@@ -1982,8 +1978,6 @@
                 <false/>
                 <key>HideAuxiliary</key>
                 <false/>
-                <key>InstanceIdentifier</key>
-                <string></string>
                 <key>LauncherOption</key>
                 <string>Disabled</string>
                 <key>LauncherPath</key>
@@ -2176,7 +2170,7 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string>C020474034N0000FB</string>
+                <string>C02046401J90000JC</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
@@ -2190,9 +2184,9 @@
                 <key>SystemProductName</key>
                 <string>MacBookPro16,3</string>
                 <key>SystemSerialNumber</key>
-                <string>C02DQYYFP3XY</string>
+                <string>C02DP03VP3XY</string>
                 <key>SystemUUID</key>
-                <string>3E9F47B2-363F-4C8F-9AA7-F517B39C855F</string>
+                <string>F208762A-264A-438E-ADBE-F64A46D1B268</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
@@ -2388,22 +2382,16 @@
             <dict>
                 <key>ClearScreenOnModeSwitch</key>
                 <false/>
-                <key>ConsoleFont</key>
-                <string></string>
                 <key>ConsoleMode</key>
                 <string></string>
                 <key>DirectGopRendering</key>
                 <false/>
                 <key>ForceResolution</key>
                 <false/>
-                <key>GopBurstMode</key>
-                <false/>
                 <key>GopPassThrough</key>
                 <string>Enabled</string>
                 <key>IgnoreTextInGraphics</key>
                 <false/>
-                <key>InitialMode</key>
-                <string>Auto</string>
                 <key>ProvideConsoleGop</key>
                 <true/>
                 <key>ReconnectGraphicsOnConnect</key>
@@ -2459,8 +2447,6 @@
                 <false/>
                 <key>OSInfo</key>
                 <false/>
-                <key>PciIo</key>
-                <false/>
                 <key>UnicodeCollation</key>
                 <false/>
             </dict>
@@ -2490,10 +2476,6 @@
                 <true/>
                 <key>ResizeGpuBars</key>
                 <integer>0</integer>
-                <key>ResizeUsePciRbIo</key>
-                <false/>
-                <key>ShimRetainProtocol</key>
-                <false/>
                 <key>TscSyncTimeout</key>
                 <integer>0</integer>
                 <key>UnblockFsConnect</key>
